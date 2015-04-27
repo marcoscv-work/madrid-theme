@@ -1,0 +1,80 @@
+<div class="navigation-level1">
+	<div class="container navbar navbar-default">
+		<nav class="$nav_css_class container" id="navigation" role="navigation">
+			<ul class="nav">
+				<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
+					#set ($display-company-logo = $theme.getSetting("display-company-logo"))
+
+					#if ($display-company-logo == true)
+						<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
+					#else
+						<img alt="Madrid theme" height="50" src="$images_folder/madrid-theme-logo.png" width="243" />
+					#end
+				</a>
+			</ul>
+			<div class="hidden-desktop pull-right lead hamburger-icon">
+				<i class="icon-align-justify"></i>
+			</div>
+			<ul aria-label="#language ("site-pages")" class="nav pull-right hamburger-menu" role="menubar">
+				#foreach ($nav_item in $nav_items)
+						#set ($nav_item_attr_selected="")
+						#set ($nav_item_attr_has_popup="")
+						#set ($nav_item_caret="")
+						#set ($nav_item_css_class="lfr-nav-item")
+						#set ($nav_item_link_css_class="")
+
+					#if ($nav_item.isSelected())
+						#set ($nav_item_attr_selected="aria-selected='true'")
+						#set ($nav_item_css_class="$nav_item_css_class selected")
+					#end
+
+					#if ($nav_item.hasChildren())
+						#set ($nav_item_attr_has_popup="aria-haspopup='true'")
+						#set ($nav_item_caret='<span class="lfr-nav-child-toggle"><i class="icon-caret-down"></i></span>')
+						#set ($nav_item_css_class="$nav_item_css_class dropdown")
+						#set ($nav_item_link_css_class="dropdown-toggle")
+					#end
+
+					<li class="$nav_item_css_class" id="layout_$nav_item.getLayoutId()" $nav_item_attr_selected role="presentation">
+						<a aria-labelledby="layout_$nav_item.getLayoutId()" $nav_item_attr_has_popup class="$nav_item_link_css_class" href="$nav_item.getURL()" $nav_item.getTarget() role="menuitem">
+							<span>$nav_item.icon() $nav_item.getName() $nav_item_caret</span>
+						</a>
+
+						#if ($nav_item.hasChildren())
+							<ul class="dropdown-menu child-menu" role="menu">
+								#foreach ($nav_child in $nav_item.getChildren())
+									#set ($nav_child_attr_selected="")
+									#set ($nav_child_css_class="lfr-nav-item")
+
+									#if ($nav_child.isSelected())
+										#set ($nav_child_attr_selected="aria-selected='true'")
+										#set ($nav_child_css_class="selected")
+									#end
+
+									<li class="$nav_child_css_class" id="layout_$nav_child.getLayoutId()" $nav_child_attr_selected role="presentation">
+										<a aria-labelledby="layout_$nav_child.getLayoutId()" href="$nav_child.getURL()" $nav_child.getTarget() role="menuitem">$nav_child.getName()</a>
+									</li>
+								#end
+							</ul>
+						#end
+					</li>
+				#end
+				#if (!$is_signed_in)
+					<li class="sign-in">
+						<a data-redirect="$is_login_redirect_required" href="$sign_in_url" id="sign-in" rel="nofollow">
+							<i class="icon-user" title="$sign_in_text"></i> $sign_in_text
+						</a>
+					</li>
+				#end
+			</ul>
+		</nav>
+	</div>
+</div>
+<div class="navigation-level2">
+	<div class="container navbar navbar-default navbar-static">
+		<nav class="portletsIndex">
+			<ul class="nav nav-pills container">
+			</ul>
+		</nav>
+	</div>
+</div>

@@ -1,0 +1,44 @@
+{
+	"layoutTemplateId": "1_column",
+	"publicPages": [
+		{
+			"columns": [
+				[
+					"MadridVideo.html",
+					"MadridMetro.html",
+					"Madrid_01.html",
+					"HomeMap.xml",
+					"Madrid_02.html"
+				]
+			],
+			"friendlyURL": "/home",
+			"name": "Home",
+			"title": "Home"
+		},
+		{
+			"friendlyURL": "/excursions",
+			"name": "Excursions",
+			"title": "Excursions"
+		},
+		{
+			"friendlyURL": "/the-best-places",
+			"name": "The best places",
+			"title": "The best places"
+		},
+		{
+			"friendlyURL": "/agenda",
+			"name": "Agenda",
+			"title": "Agenda"
+		},
+		{
+			"friendlyURL": "/your-travel",
+			"name": "Your travel",
+			"title": "Your travel"
+		},
+		{
+			"friendlyURL": "/museums",
+			"name": "Museums",
+			"title": "Museums"
+		}
+	]
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>$the_title - $company_name</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+	$theme.include($top_head_include)
+
+	#set ($navigationColor = $theme.getSetting("navigation-color"))
+	#set ($navigationTextColor = $theme.getSetting("navigation-text-color"))
+	#set ($PortletNavigationColor = $theme.getSetting("portlets-navigation-color"))
+	#set ($PortletNavigationTextColor = $theme.getSetting("portlets-navigation-text-color"))
+	#set ($footerColor = $theme.getSetting("footer-color"))
+	#set ($footerTextColor = $theme.getSetting("footer-text-color"))
+	#set ($linkColor = $theme.getSetting("link-color"))
+
+	#if (($navigationColor!="") || ($navigationTextColor!="") || ($PortletNavigationColor!="") || ($PortletNavigationTextColor!="") || ($footerColor!="") || ($footerTextColor!=""))
+		<style>
+		#if (($navigationColor!="") || ($navigationTextColor!=""))
+			.aui #wrapper .navigation-level1, .aui .nav.hamburger-menu, .aui #wrapper .portlet-title {
+				background: $navigationColor;
+				color: $navigationTextColor;
+			}
+			.aui #wrapper .navigation-level1 a, .aui #wrapper .portlet-title .portlet-title-text {
+				color: $navigationTextColor;
+			}
+			.aui #content a {
+				color: $linkColor;
+			}
+		#end
+		#if (($PortletNavigationColor!="") || ($PortletNavigationTextColor!=""))
+			.aui #wrapper .navigation-level2 {
+				background: $PortletNavigationColor;
+				color: $PortletNavigationTextColor;
+			}
+			.aui #wrapper .navigation-level2 .portletsIndex ul li a {
+				color: $PortletNavigationTextColor;
+			}
+			.aui #wrapper .navigation-level2 .portletsIndex ul li.aactive {
+				background: rgba(0 ,0 ,0 ,0.2);
+			}
+		#end
+		#if (($footerColor!="") || ($footerTextColor!=""))
+			.aui #footer {
+				background: $footerColor;
+				color: $footerTextColor;
+			}
+			.aui #footer a {
+				color: $footerTextColor;
+			}
+		#end
+		</style>
+	#end
+</head>
+
+#set ($lateralPortletsIndex = $theme.getSetting("lateral-portlets-index"))
+
+#if ($lateralPortletsIndex == true)
+	#set ($css_class = "${css_class} lateral-portlets-index")
+#end
+
+#set ($magicMouseScroll = $theme.getSetting("magic-mouse-scroll"))
+
+#if ($magicMouseScroll == true)
+	#set ($css_class = "${css_class} magic-mouse-scroll")
+#end
+
+<body class="$css_class">
+<div class="loading"></div>
+<a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
+
+$theme.include($body_top_include)
+
+#if ($is_signed_in)
+	#dockbar()
+#end
+
+<div id="wrapper">
+	<header id="banner" role="banner">
+		#if ($has_navigation || $is_signed_in)
+			#parse ("$full_templates_path/navigation.vm")
+		#end
+	</header>
+
+	<div id="content">
+		##<nav id="breadcrumbs">#breadcrumbs()</nav>
+
+		#if ($selectable)
+			$theme.include($content_include)
+		#else
+			$portletDisplay.recycle()
+
+			$portletDisplay.setTitle($the_title)
+
+			$theme.wrapPortlet("portlet.vm", $content_include)
+		#end
+	</div>
+
+	<footer id="footer" role="contentinfo">
+		<div class="container">
+			#set ($footerContent = $theme.getSetting("footer-web-content-article-id"))
+
+			#if (($footerContent!=""))
+				$theme.journalArticle($footerContent, $themeDisplay.getSiteGroupId(), "")
+			#else
+				<div class="row">
+					<div class="span4">
+						<ul class="unstyled">
+							<li>Liferay.com</li>
+							<li>dev.liferay.com</li>
+							<li>AlloyUI.com</li>
+							<li>AlloyEditor.com</li>
+						</ul>
+					</div>
+					<div class="span4">
+						<ul class="unstyled">
+							<li>
+								<a href="https://github.com/liferay">GitHub.com/liferay</a>
+							</li>
+							<li>
+								<a href="https://github.com/marcoscv-work/experimental-liferay-themes">Experimental Themes</a>
+							</li>
+							<li>
+								<a href="https://www.liferay.com/web/marcos.castro/blog">Meet the team</a>
+							</li>
+						</ul>
+					</div>
+					<div class="span4">
+						<ul class="unstyled">
+							<li>
+								<img alt="Madrid Theme 2015" height="30" src="$images_folder/madrid-theme-logo.png" width="146" />
+							</li>
+							<li class="hide">Free use (Do not redistribute)</li>
+						</ul>
+					</div>
+				</div>
+			#end
+			<div class="row pre-breadcrumbs">
+				<nav class="span12">#breadcrumbs()</nav>
+			</div>
+		</div>
+	</footer>
+</div>
+
+$theme.include($body_bottom_include)
+
+$theme.include($bottom_include)
+
+</body>
+
+</html>

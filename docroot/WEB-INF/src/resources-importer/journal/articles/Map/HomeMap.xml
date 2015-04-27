@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="ZFdGjk59" name="coordinatesMap" type="text" index-type="">
+		<dynamic-content><![CDATA[40.4111803, -3.693051]]></dynamic-content>
+	</dynamic-element>
+
+	<dynamic-element instance-id="ZYyn4lcL" name="styleMapOptions" type="ddm-separator" index-type="">
+		<dynamic-element instance-id="ZJwKZi22" name="mapHeight" type="text" index-type="">
+			<dynamic-element instance-id="ZJwKZiO1" name="mapMarginTop" type="text" index-type="">
+				<dynamic-content><![CDATA[0]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="ZJwKZi12" name="mapMarginDown" type="text" index-type="">
+				<dynamic-content><![CDATA[0]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[350px]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZiO3" name="mapVisibility" type="text" index-type="">
+			<dynamic-content><![CDATA[simplified]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZiO4" name="weight" type="text" index-type="">
+			<dynamic-content><![CDATA[5]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZiO5" name="saturation" type="text" index-type="">
+			<dynamic-content><![CDATA[-20]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZiO6" name="lightness" type="text" index-type="">
+			<dynamic-content><![CDATA[35]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZiO7" name="gamma" type="text" index-type="">
+			<dynamic-content><![CDATA[0.50]]></dynamic-content>
+		</dynamic-element>
+	</dynamic-element>
+
+	<dynamic-element instance-id="ZYyn4lcZ" name="mapOptions" type="ddm-separator" index-type="">
+		<dynamic-element instance-id="ZJwKZi22" name="mapZoom" type="option" index-type="">
+			<dynamic-content><![CDATA[13]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZi33" name="scrollwheel" type="option" index-type="">
+			<dynamic-content><![CDATA[false]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZi44" name="navigationControl" type="option" index-type="">
+			<dynamic-content><![CDATA[false]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZi55" name="mapTypeControl" type="option" index-type="">
+			<dynamic-content><![CDATA[false]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZi66" name="scaleControl" type="option" index-type="">
+			<dynamic-content><![CDATA[false]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZi77" name="draggable" type="option" index-type="">
+			<dynamic-content><![CDATA[false]]></dynamic-content>
+		</dynamic-element>
+
+		<dynamic-element instance-id="ZJwKZi88" name="disableDefaultUI" type="option" index-type="">
+			<dynamic-content><![CDATA[true]]></dynamic-content>
+		</dynamic-element>
+	</dynamic-element>
+</root>

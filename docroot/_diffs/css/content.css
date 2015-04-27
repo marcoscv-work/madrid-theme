@@ -1,0 +1,60 @@
+@import "compass";
+@import "compass/css3/user-interface";
+@import "mixins";
+
+.aui {
+	/* ---------- List styles ---------- */
+
+	.list-container .list-item {
+		display: block;
+		float: left;
+		width: 25%;
+		position: relative;
+		overflow: hidden;
+
+		h1, h2 {
+			-ms-text-overflow: ellipsis;
+			-o-text-overflow: ellipsis;
+			display: inline-block;
+			font-size: 20px;
+			line-height: 1.2;
+			margin: 0 0 3px;
+			max-width: 95%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			vertical-align: top;
+			white-space: nowrap;
+			width: 100%;
+		}
+
+		img {
+			max-width: inherit;
+  			width: 100%;
+		}
+
+		.list-text {
+			@include transition(all 0.4s ease-in-out);
+			@include rotate(-90deg);
+			@include transform-origin(100%);
+
+			display: block;
+			padding: 20px;
+			position: absolute;
+			color: #FFF;
+			background: rgba(0, 0, 0, 0.5);
+			left: 0;
+			right: 0;
+			bottom: -100%;
+		}
+
+		.margins {
+			display: block;
+		}
+
+		&:hover .list-text, &.none .list-text {
+			@include rotate(0);
+
+			bottom: 0
+		}
+	}
+}
