@@ -30,6 +30,8 @@ AUI().ready(
 			hamburguerNode.on(
 				'click',
 				function() {
+					var icon = hamburguerNode.one('.icon-align-justify');
+					icon.toggleClass('icon-chevron-left');
 					BODY.toggleClass('opened');
 					hamburguerNode.toggleClass('open');
 				}
