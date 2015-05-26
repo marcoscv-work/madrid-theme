@@ -8,7 +8,7 @@ $solidMainColor: #C82425;
 
 .aui {
 	body {
-		@include transition(all 0.4s ease-in-out);
+		@include transition(all 0.4s ease);
 		@include transition(translate3d(0,0,0));
 
 		margin-top: $navigationLevelOneheight;
@@ -150,7 +150,7 @@ $solidMainColor: #C82425;
 
 		.navigation-level2, .navigation-level1 {
 			@include box-shadow (0 2px 2px 0 rgba(0, 0, 0 ,0.15));
-			@include transition(all 0.4s ease-in-out);
+			@include transition(all 0.4s ease);
 
 			background: #FFF;
 			position: relative;
@@ -201,7 +201,7 @@ $solidMainColor: #C82425;
 
 	.scroll-down-heavy, .scroll-up-heavy {
 		#wrapper .navigation-level2 {
-			@include transition(all 0.2s ease-in-out);
+			@include transition(all 0.2s ease);
 		}
 	}
 
@@ -255,7 +255,7 @@ $solidMainColor: #C82425;
 		}
 
 		.nav.hamburger-menu {
-			@include transition(all 0.4s ease-in-out);
+			@include transition(all 0.4s ease);
 			@include box-shadow (3px 0px 2px 0 rgba(0, 0, 0 ,0.25));
 
 			background: darken($solidMainColor, 5%);
