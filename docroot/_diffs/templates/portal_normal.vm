@@ -26,10 +26,11 @@
 				background: $navigationColor;
 				color: $navigationTextColor;
 			}
-			.aui #wrapper .navigation-level1 a, .aui #wrapper .portlet-title .portlet-title-text {
+			.aui #wrapper .navigation-level1 a, .aui #wrapper .portlet-title .portlet-title-text, .aui #wrapper .navigation-level1 .navbar .nav>li>a:hover, .aui #wrapper .navigation-level1 .navbar .nav>li>a:active, .aui #wrapper .navigation-level1 .navbar .nav>li>a:focus {
 				color: $navigationTextColor;
 			}
-			.aui #content a {
+
+			.aui #content a, .aui #content a:hover, .aui #content a:active {
 				color: $linkColor;
 			}
 		#end
@@ -41,7 +42,7 @@
 			.aui #wrapper .navigation-level2 .portletsIndex ul li a {
 				color: $PortletNavigationTextColor;
 			}
-			.aui #wrapper .navigation-level2 .portletsIndex ul li.aactive {
+			.aui #wrapper .navigation-level2 .portletsIndex ul li.aactive, .aui #wrapper .navigation-level2 .portletsIndex ul li:hover {
 				background: rgba(0 ,0 ,0 ,0.2);
 			}
 		#end
