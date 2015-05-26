@@ -48,7 +48,13 @@ $solidMainColor: #C82425;
 	}
 
 	a {
+		color: $solidMainColor;
+
 		@include text-shadow(none);
+
+		&:hover {
+			color: darken($solidMainColor, 10%);
+		}
 	}
 
 	.texture {
@@ -140,6 +146,10 @@ $solidMainColor: #C82425;
 			.navbar .nav>li>a {
 				@include text-shadow(none);
 				padding: $navigationLevelOneheight/4 15px;
+
+				&:hover, &:active, &:focus {
+					color: darken($solidMainColor, 10%);
+				}
 			}
 
 			.logo img {
@@ -170,7 +180,7 @@ $solidMainColor: #C82425;
 			.portletsIndex ul li {
 				text-align: center;
 
-				&.aactive {
+				&.aactive, &:hover {
 					background: darken($solidMainColor, 5%);
 				}
 
@@ -179,8 +189,8 @@ $solidMainColor: #C82425;
 					@include ellipsis;
 
 					color: #FFF;
-					display: inline-block;
-					max-width: 80%;
+					display: block;
+					max-width: 95%;
 					overflow: hidden;
 					vertical-align: top;
 					white-space: nowrap;
@@ -276,6 +286,10 @@ $solidMainColor: #C82425;
 				&>a {
 					color: #FFF;
 					font-size: 130%;
+
+					&:hover, &:active, &:focus {
+						color: #FFF;
+					}
 				}
 			}
 		}
