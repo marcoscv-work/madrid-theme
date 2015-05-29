@@ -139,11 +139,12 @@ $theme.include($body_top_include)
 							<li class="hide">Free use (Do not redistribute)</li>
 						</ul>
 					</div>
+			#set ($footerBreadcrumbs = $theme.getSetting("footer-breadcrumbs"))
+			#if (($footerBreadcrumbs == true))
+				<div class="row pre-breadcrumbs">
+					<nav class="span12">#breadcrumbs()</nav>
 				</div>
 			#end
-			<div class="row pre-breadcrumbs">
-				<nav class="span12">#breadcrumbs()</nav>
-			</div>
 		</div>
 	</footer>
 </div>
