@@ -3,9 +3,9 @@
 		<nav class="$nav_css_class container" id="navigation" role="navigation">
 			<ul class="nav">
 				<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
-					#set ($display-company-logo = $theme.getSetting("display-company-logo"))
+					#set ($display-site-logo = $theme.getSetting("display-site-logo"))
 
-					#if ($display-company-logo == true)
+					#if ($display-site-logo == true)
 						<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
 					#else
 						<img alt="Madrid theme" height="50" src="$images_folder/madrid-theme-logo.png" width="243" />

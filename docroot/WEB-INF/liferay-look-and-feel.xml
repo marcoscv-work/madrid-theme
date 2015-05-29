@@ -7,7 +7,7 @@
 	</compatibility>
 	<theme id="madrid" name="Madrid theme">
 		<settings>
-			<setting configurable="true" key="display-company-logo" type="checkbox" value="false" />
+			<setting configurable="true" key="display-site-logo" type="checkbox" value="false" />
 			<setting configurable="true" key="lateral-portlets-index" type="checkbox" value="true" />
 			<setting configurable="true" key="magic-mouse-scroll" type="checkbox" value="true" />
 			<setting configurable="true" key="portlet-setup-show-borders-default" type="checkbox" value="true" />
