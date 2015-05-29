@@ -1,0 +1,31 @@
+<div class="row">
+	<div class="span4">
+		<ul class="unstyled">
+			<li>Liferay.com</li>
+			<li>dev.liferay.com</li>
+			<li>AlloyUI.com</li>
+			<li>AlloyEditor.com</li>
+		</ul>
+	</div>
+	<div class="span4">
+		<ul class="unstyled">
+			<li>
+				<a href="https://github.com/liferay">GitHub.com/liferay</a>
+			</li>
+			<li>
+				<a href="https://github.com/marcoscv-work/experimental-liferay-themes">Experimental Themes</a>
+			</li>
+			<li>
+				<a href="https://www.liferay.com/web/marcos.castro/blog">Meet the team</a>
+			</li>
+		</ul>
+	</div>
+	<div class="span4">
+		<ul class="unstyled">
+			<li>
+				<img alt="Madrid Theme 2015" height="30" src="$images_folder/madrid-theme-logo.png" width="146" />
+			</li>
+			<li class="hide">Free use (Do not redistribute)</li>
+		</ul>
+	</div>
+</div>
