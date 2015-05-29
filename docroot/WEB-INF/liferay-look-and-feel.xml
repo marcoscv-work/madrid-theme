@@ -329,7 +329,7 @@
 										<td style="background:#FFF;color:#AFB42B">Link color</td>
 									</tr>
 									<tr style="height: 50px;">
-										<td colspan="5"><span class="btn btn-block palette" pallete="/////">Reset to default theme palette</span></td>
+										<td colspan="5"><span class="btn btn-block palette" pallete="//////">Reset to default theme palette</span></td>
 									</tr>
 								</tbody>
 							</table>');
