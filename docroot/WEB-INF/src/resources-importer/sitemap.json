@@ -7,8 +7,11 @@
 					"MadridVideo.html",
 					"MadridMetro.html",
 					"Madrid_01.html",
+					"Madrid_02.html",
 					"HomeMap.xml",
-					"Madrid_02.html"
+					"ListGrid.xml",
+					"TextLorem.xml",
+					"HomePhotoCarousel.xml"
 				]
 			],
 			"friendlyURL": "/home",
@@ -16,6 +19,11 @@
 			"title": "Home"
 		},
 		{
+			"columns": [
+				[
+					"HomePhotoCarousel.xml"
+				]
+			],
 			"friendlyURL": "/excursions",
 			"name": "Excursions",
 			"title": "Excursions"
