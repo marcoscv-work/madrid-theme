@@ -71,6 +71,12 @@
 	#set ($css_class = "${css_class} magic-mouse-scroll")
 #end
 
+#set ($portletsAutoHeight = $theme.getSetting("portlets-auto-height"))
+
+#if ($portletsAutoHeight == true)
+	#set ($css_class = "${css_class} portlets-auto-height")
+#end
+
 <body class="$css_class">
 <div class="loading"></div>
 <a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>

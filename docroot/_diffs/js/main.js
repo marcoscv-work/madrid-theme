@@ -173,16 +173,24 @@ AUI().ready(
 		// Create lateral portlets index
 
 		var fullSizeNodesCalc = function () {
-			var winHeight = WIN.get('innerHeight');
-			var marginTop = BODY.getStyle('margin-top');
-			if (Lang.isUndefined(winHeight)) {
-				winHeight = document.documentElement.clientHeight;
+			var autoHeight = A.one('.portlets-auto-height');
+
+			if (autoHeight) {
+				var winHeight = WIN.get('innerHeight');
+				var marginTop = BODY.getStyle('margin-top');
+
+				if (Lang.isUndefined(winHeight)) {
+					winHeight = document.documentElement.clientHeight;
+				}
 			}
 
 			allPortletsNodes.each(
 				function(node,i) {
 					var thisNode = node;
-					node.setStyle('minHeight', (winHeight - Lang.toInt(marginTop)));
+
+					if (autoHeight) {
+						node.setStyle('minHeight', (winHeight - Lang.toInt(marginTop)));
+					}
 
 					var gettitle = thisNode.one('.portlet-title-text');
 
@@ -192,7 +200,7 @@ AUI().ready(
 						if (gettitle) {
 							var title = gettitle.text();
 						} else {
-							var title = "Title hide";
+							var title = "Add .portlet-title-text in your portlet";
 						};
 
 					} else {
