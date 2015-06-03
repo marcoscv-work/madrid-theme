@@ -766,8 +766,10 @@ AUI().ready(
       if (ScrollPos >= subheadY) {
         console.log('EXEC');
         subheadNav.setStyle('position', 'fixed');
+        subheadNav.setStyle('top', '70px');
       } else {
         subheadNav.setStyle('position', 'relative');
+        subheadNav.setStyle('top', '0px');
       };
     }
 

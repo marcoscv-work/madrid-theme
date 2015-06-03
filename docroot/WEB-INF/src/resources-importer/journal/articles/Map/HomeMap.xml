@@ -2,7 +2,7 @@
 
 <root available-locales="en_US" default-locale="en_US">
 	<dynamic-element instance-id="KFdGjk59" name="coordinatesMap" type="text" index-type="">
-		<dynamic-content><![CDATA[34.0204989,-118.4117325]]></dynamic-content>
+		<dynamic-content><![CDATA[40.4378271,-3.6795367]]></dynamic-content>
 	</dynamic-element>
 
 	<dynamic-element instance-id="qYyn4lcL" name="styleMapOptions" type="ddm-separator" index-type="">

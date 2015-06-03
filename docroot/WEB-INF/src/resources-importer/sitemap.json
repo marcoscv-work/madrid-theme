@@ -5,13 +5,29 @@
 			"columns": [
 				[
 					"MadridVideo.html",
-					"MadridMetro.html",
-					"Madrid_01.html",
+					{
+						"portletId": "56",
+						"portletPreferences": {
+							"articleId": "ListGridActivities.xml",
+							"groupId": "${groupId}",
+							"portletSetupShowBorders": "true",
+							"portletSetupTitle_en_US":
+                                "The Best Activities in Madrid",
+                            "portletSetupUseCustomTitle": "true"
+						}
+					},
 					"Madrid_02.html",
-					"HomeMap.xml",
-					"ListGrid.xml",
-					"TextLorem.xml",
-					"HomePhotoCarousel.xml"
+					{
+						"portletId": "56",
+						"portletPreferences": {
+							"articleId": "ListGrid.xml",
+							"groupId": "${groupId}",
+							"portletSetupShowBorders": "true",
+							"portletSetupTitle_en_US":
+                                "The Best Places in Madrid",
+                            "portletSetupUseCustomTitle": "true"
+						}
+					}
 				]
 			],
 			"friendlyURL": "/home",
@@ -21,32 +37,86 @@
 		{
 			"columns": [
 				[
-					"HomePhotoCarousel.xml"
+					{
+						"portletId": "56",
+						"portletPreferences": {
+							"articleId": "HomePhotoCarousel.xml",
+							"groupId": "${groupId}",
+							"portletSetupShowBorders": "true",
+							"portletSetupTitle_en_US":
+                                "Panoramas in Madrid",
+                            "portletSetupUseCustomTitle": "true"
+						}
+					},
+					{
+						"portletId": "56",
+						"portletPreferences": {
+							"articleId": "ListGrid.xml",
+							"groupId": "${groupId}",
+							"portletSetupShowBorders": "true",
+							"portletSetupTitle_en_US":
+                                "The best places in Madrid",
+                            "portletSetupUseCustomTitle": "true"
+						}
+					}
 				]
 			],
-			"friendlyURL": "/excursions",
-			"name": "Excursions",
-			"title": "Excursions"
-		},
-		{
 			"friendlyURL": "/the-best-places",
 			"name": "The best places",
 			"title": "The best places"
 		},
 		{
+			"columns": [
+				[
+					"MadridMetro.html",
+					"HomeMap.xml"
+				]
+			],
+			"friendlyURL": "/transport",
+			"name": "Transport",
+			"title": "Transport"
+		},
+		{
+			"columns": [
+				[
+					"Madrid_02.html",
+					"Madrid_01.html"
+				]
+			],
 			"friendlyURL": "/agenda",
 			"name": "Agenda",
 			"title": "Agenda"
 		},
 		{
+			"columns": [
+				[
+					{
+						"portletId": "56",
+						"portletPreferences": {
+							"articleId": "ListGridActivities.xml",
+							"groupId": "${groupId}",
+							"portletSetupShowBorders": "true",
+							"portletSetupTitle_en_US":
+                                "The Best Activities in Madrid",
+                            "portletSetupUseCustomTitle": "true"
+						}
+					},
+					"Madrid_02.html"
+				]
+			],
 			"friendlyURL": "/your-travel",
 			"name": "Your travel",
 			"title": "Your travel"
 		},
 		{
-			"friendlyURL": "/museums",
-			"name": "Museums",
-			"title": "Museums"
+			"columns": [
+				[
+					"BootstrapComponents.html",
+				]
+			],
+			"friendlyURL": "/bootstrap",
+			"name": "Bootstrap",
+			"title": "Bootstrap"
 		}
 	]
 }

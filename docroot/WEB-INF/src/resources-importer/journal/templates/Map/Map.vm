@@ -51,6 +51,8 @@
 	#set ($mapZoom = $mapOptions.mapZoom.data)
 #end
 
+<p class="portlet-title-text hide">Map</p>
+
 <div id="$content_id" style="min-height:$mapHeight ; margin-top: $mapMarginTop ; margin-bottom: $mapMarginDown ;">&nbsp;</div>
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>

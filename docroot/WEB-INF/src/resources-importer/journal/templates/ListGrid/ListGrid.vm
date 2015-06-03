@@ -3,16 +3,34 @@
 
 #if ($items-per-file.data == "2")
 	#set ($itemsPerFileCol = "50%")
+	#set ($itemsDobble = "100%")
+	#set ($itemsHight = "400px")
+	#set ($itemsHightDobble = "800px")
 #elseif ($items-per-file.data == "3")
-	#set ($itemsPerFileCol = "33.3%")
+	#set ($itemsPerFileCol = "33.33%")
+	#set ($itemsDobble = "66.66%")
+	#set ($itemsHight = "300px")
+	#set ($itemsHightDobble = "600px")
 #elseif ($items-per-file.data == "4")
 	#set ($itemsPerFileCol = "25%")
+	#set ($itemsDobble = "50%")
+	#set ($itemsHight = "240px")
+	#set ($itemsHightDobble = "480px")
 #elseif ($items-per-file.data == "5")
 	#set ($itemsPerFileCol = "20%")
+	#set ($itemsDobble = "40%")
+	#set ($itemsHight = "120px")
+	#set ($itemsHightDobble = "240px")
 #elseif ($items-per-file.data == "6")
 	#set ($itemsPerFileCol = "16.65%")
+	#set ($itemsDobble = "33.3%")
+	#set ($itemsHight = "75px")
+	#set ($itemsHightDobble = "150px")
 #elseif ($items-per-file.data == "8")
 	#set ($itemsPerFileCol = "12.5%")
+	#set ($itemsDobble = "25%")
+	#set ($itemsHight = "50px")
+	#set ($itemsHightDobble = "100px")
 #end
 
 #if ($effect.data == "none")
@@ -21,12 +39,45 @@
 	#set ($effectType = "mouseover")
 #end
 
+<style>
+.aui #$content_id .list-item {
+   position:relative;
+   min-height: $itemsHight;
+   width: $itemsPerFileCol;
+   display: block;
+}
+
+#if ($items-layaout.data == "bigger")
+	.aui #$content_id .list-item:first-child {
+	    min-height: $itemsHightDobble;
+	    width: $itemsDobble;
+	}
+#elseif ($items-layaout.data == "bigger2")
+	.aui #$content_id .list-item:first-child {
+	    min-height: $itemsHightDobble;
+	    width: $itemsDobble;
+	    float: right;
+	}
+#end
+
+.aui #$content_id .list-item a {
+    position: absolute;
+    background-size: cover;
+    top:0; left: 0; right: 0; bottom: 0;
+}
+.aui #$content_id .list-item .full {
+	display: none;
+}
+#macModal .hide {
+	display: block !important;
+}
+</style>
 
 <div class="list-container" id="$content_id">
 	#foreach ($item in $list-item.siblings)
-		<div class="list-item $effectType" style="width:$itemsPerFileCol;">
+		<div class="list-item $effectType">
 			#if ($item.url-location.data != "")
-				<a href="$item.url-location.data">
+				<a href="$item.url-location.data" style="background-image: url($item.image.data);">
 			#end
 					<img src="$item.image.data" alt="$item.data" class="full" />
 					<span class="list-text">

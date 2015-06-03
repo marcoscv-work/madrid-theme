@@ -56,6 +56,42 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
+
+	<dynamic-element dataType="string" indexType="" multiple="false" name="items-layaout" readOnly="false" repeatable="false" required="false" showLabel="true" type="select" width="">
+		<dynamic-element name="option10096" type="option" value="grid">
+			<meta-data locale="en_US">
+				<entry name="label">
+					<![CDATA[Grid]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option10097" type="option" value="bigger">
+			<meta-data locale="en_US">
+				<entry name="label">
+					<![CDATA[First item Bigger (left)]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option10098" type="option" value="bigger2">
+			<meta-data locale="en_US">
+				<entry name="label">
+					<![CDATA[First item Bigger (right)]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<meta-data locale="en_US">
+			<entry name="label">
+				<![CDATA[Items Layaout]]>
+			</entry>
+			<entry name="predefinedValue">
+				<![CDATA[["grid"]]]>
+			</entry>
+			<entry name="tip">
+				<![CDATA[]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+
 	<dynamic-element dataType="string" indexType="" multiple="false" name="effect" readOnly="false" repeatable="false" required="false" showLabel="true" type="select" width="">
 		<dynamic-element name="option7886" type="option" value="mouseover">
 			<meta-data locale="en_US">

@@ -2,11 +2,11 @@
 
 <root available-locales="en_US" default-locale="en_US">
 	<dynamic-element instance-id="zZzO9a8O" name="items-per-file" type="list" index-type="">
-		<dynamic-content><![CDATA[3]]></dynamic-content>
+		<dynamic-content><![CDATA[4]]></dynamic-content>
 	</dynamic-element>
 
 	<dynamic-element instance-id="zTzO9a0O" name="items-layaout" type="list" index-type="">
-		<dynamic-content><![CDATA[bigger]]></dynamic-content>
+		<dynamic-content><![CDATA[bigger2]]></dynamic-content>
 	</dynamic-element>
 
 	<dynamic-element instance-id="zZzO9a88" name="effect" type="list" index-type="">
@@ -24,7 +24,7 @@
 			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus efficitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><div class="span6"><img src="[$FILE=Madrid_01.jpg$]" alt="" class="full"></div><div class="span6"><img src="[$FILE=Madrid_03.jpg$]" alt="" class="full"></div></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="zZzhI0fa" name="image" type="document_library" index-type="">
-			<dynamic-content><![CDATA[[$FILE=Madrid_16.jpg$]]]></dynamic-content>
+			<dynamic-content><![CDATA[[$FILE=Madrid_14.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="zZzRiz5o" name="url-location" type="link_to_layout" index-type="">
 			<dynamic-content><![CDATA[#content]]></dynamic-content>
@@ -43,7 +43,7 @@
 			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus efficitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><div class="span6"><img src="[$FILE=Madrid_05.jpg$]" alt="" class="full"></div><div class="span6"><img src="[$FILE=Madrid_06.jpg$]" alt="" class="full"></div></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="cCchI0fa" name="image" type="document_library" index-type="">
-			<dynamic-content><![CDATA[[$FILE=Madrid_08.jpg$]]]></dynamic-content>
+			<dynamic-content><![CDATA[[$FILE=Madrid_06.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="cCcRiz5o" name="url-location" type="link_to_layout" index-type="">
 			<dynamic-content><![CDATA[#content]]></dynamic-content>
@@ -62,7 +62,7 @@
 			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus efficitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><div class="span6"><img src="[$FILE=Madrid_07.jpg$]" alt="" class="full"></div><div class="span6"><img src="[$FILE=Madrid_08.jpg$]" alt="" class="full"></div></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="vVvhI0fa" name="image" type="document_library" index-type="">
-			<dynamic-content><![CDATA[[$FILE=Madrid_01.jpg$]]]></dynamic-content>
+			<dynamic-content><![CDATA[[$FILE=Madrid_07.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="vVvRiz5o" name="url-location" type="link_to_layout" index-type="">
 			<dynamic-content><![CDATA[#content]]></dynamic-content>
@@ -81,7 +81,7 @@
 			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus efficitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><div class="span6"><img src="[$FILE=Madrid_09.jpg$]" alt="" class="full"></div><div class="span6"><img src="[$FILE=Madrid_10.jpg$]" alt="" class="full"></div></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="bBbhI0fa" name="image" type="document_library" index-type="">
-			<dynamic-content><![CDATA[[$FILE=Madrid_18.jpg$]]]></dynamic-content>
+			<dynamic-content><![CDATA[[$FILE=Madrid_09.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="bBbRiz5o" name="url-location" type="link_to_layout" index-type="">
 			<dynamic-content><![CDATA[#content]]></dynamic-content>
@@ -100,7 +100,7 @@
 			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus efficitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><div class="span6"><img src="[$FILE=Madrid_13.jpg$]" alt="" class="full"></div><div class="span6"><img src="[$FILE=Madrid_14.jpg$]" alt="" class="full"></div></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="zXzhI0fa" name="image" type="document_library" index-type="">
-			<dynamic-content><![CDATA[[$FILE=Madrid_02.jpg$]]]></dynamic-content>
+			<dynamic-content><![CDATA[[$FILE=Madrid_17.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="zXzRiz5o" name="url-location" type="link_to_layout" index-type="">
 			<dynamic-content><![CDATA[#content]]></dynamic-content>
@@ -119,12 +119,69 @@
 			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus efficitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><img src="[$FILE=Madrid_05.jpg$]" alt="" class="full"></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="cVchI0fa" name="image" type="document_library" index-type="">
-			<dynamic-content><![CDATA[[$FILE=Madrid_19.jpg$]]]></dynamic-content>
+			<dynamic-content><![CDATA[[$FILE=Madrid_05.jpg$]]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-element instance-id="cVcRiz5o" name="url-location" type="link_to_layout" index-type="">
 			<dynamic-content><![CDATA[#content]]></dynamic-content>
 		</dynamic-element>
 		<dynamic-content><![CDATA[Productua]]></dynamic-content>
+	</dynamic-element>
+
+	<dynamic-element instance-id="FFzn3lcL" name="list-item" type="text" index-type="">
+		<dynamic-element instance-id="FFzKZiO2" name="tagline" type="text" index-type="">
+			<dynamic-content><![CDATA[Fugiat harum nulla voluptatem]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FFzsweoF" name="paragraph" type="text" index-type="">
+			<dynamic-content><![CDATA[Id expedita explicabo dignissimos ut delectus reiciendis exce]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FFzswePF" name="fullContent" type="ddm-text-html" index-type="">
+			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus efficitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><div class="span6"><img src="[$FILE=Madrid_01.jpg$]" alt="" class="full"></div><div class="span6"><img src="[$FILE=Madrid_03.jpg$]" alt="" class="full"></div></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FFzhI0fa" name="image" type="document_library" index-type="">
+			<dynamic-content><![CDATA[[$FILE=Madrid_04.jpg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FFzRiz5o" name="url-location" type="link_to_layout" index-type="">
+			<dynamic-content><![CDATA[#content]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Salmentor]]></dynamic-content>
+	</dynamic-element>
+
+	<dynamic-element instance-id="FFcn3lcL" name="list-item" type="text" index-type="">
+		<dynamic-element instance-id="FFcKZiO2" name="tagline" type="text" index-type="">
+			<dynamic-content><![CDATA[Nulla voluptatem fugiat harum]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FFcsweoF" name="paragraph" type="text" index-type="">
+			<dynamic-content><![CDATA[Ut delectus reiciendis exce id expedita explicabo dignissimos]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FFzsweAF" name="fullContent" type="ddm-text-html" index-type="">
+			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus efficitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><div class="span6"><img src="[$FILE=Madrid_05.jpg$]" alt="" class="full"></div><div class="span6"><img src="[$FILE=Madrid_06.jpg$]" alt="" class="full"></div></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FFchI0fa" name="image" type="document_library" index-type="">
+			<dynamic-content><![CDATA[[$FILE=Madrid_15.jpg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FFcRiz5o" name="url-location" type="link_to_layout" index-type="">
+			<dynamic-content><![CDATA[#content]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Pskaitofrit]]></dynamic-content>
+	</dynamic-element>
+
+	<dynamic-element instance-id="alcn3lcL" name="list-item" type="text" index-type="">
+		<dynamic-element instance-id="alcKZiO2" name="tagline" type="text" index-type="">
+			<dynamic-content><![CDATA[Nulla voluptatem fugiat harum]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="alcsweoF" name="paragraph" type="text" index-type="">
+			<dynamic-content><![CDATA[Ut delectus reiciendis exce id expedita explicabo dignissimos]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="alzsweAF" name="fullContent" type="ddm-text-html" index-type="">
+			<dynamic-content><![CDATA[<p>Curabitur varius, nisi tempor feugiat laoreet, arcu libero dictum nunc, quis rutrum tellus ligula id augue. Aliquam eget ultricies justo, nec fringilla felis. Phasellus ealicitur placerat elit, in consectetur mi. Donec quis urna malesuada</p><div class="row-fluid"><div class="span6"><img src="[$FILE=Madrid_05.jpg$]" alt="" class="full"></div><div class="span6"><img src="[$FILE=Madrid_06.jpg$]" alt="" class="full"></div></div><p>Suspendisse venenatis cursus commodo. Donec fringilla sed tortor et gravida. Vivamus vestibulum est vel tortor imperdiet vestibulum mattis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra imperdiet orci sit amet dignissim.</p><p>Cras vel augue rhoncus, porta metus id, ultricies sapien. Quisque at enim sapien. Etiam accumsan leo vitae lacinia facilisis. Phasellus nisi diam, sollicitudin nec cursus et, congue in nunc. Nullam massa nunc, lobortis non consequat eu.</p>]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="alchI0fa" name="image" type="document_library" index-type="">
+			<dynamic-content><![CDATA[[$FILE=Madrid_10.jpg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="alcRiz5o" name="url-location" type="link_to_layout" index-type="">
+			<dynamic-content><![CDATA[#content]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Pskaitofrit]]></dynamic-content>
 	</dynamic-element>
 
 </root>
