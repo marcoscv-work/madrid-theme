@@ -22,11 +22,14 @@
 	#if (($navigationColor!="") || ($navigationTextColor!="") || ($PortletNavigationColor!="") || ($PortletNavigationTextColor!="") || ($footerColor!="") || ($footerTextColor!=""))
 		<style>
 		#if (($navigationColor!="") || ($navigationTextColor!=""))
-			.aui #wrapper .navigation-level1, .aui .nav.hamburger-menu, .aui #wrapper .portlet-title {
-				background: $navigationColor;
-				color: $navigationTextColor;
+			.aui #wrapper .navigation-level1, .aui .nav.hamburger-menu, .aui #wrapper .portlet-title, .aui #content a.btn-danger, .aui body #macModal .modal-header{
+				background: $navigationColor !important;
+				color: $navigationTextColor !important;
 			}
-			.aui #wrapper .navigation-level1 a, .aui #wrapper .portlet-title .portlet-title-text, .aui #wrapper .navigation-level1 .navbar .nav>li>a:hover, .aui #wrapper .navigation-level1 .navbar .nav>li>a:active, .aui #wrapper .navigation-level1 .navbar .nav>li>a:focus {
+			.aui .list-container .list-item:hover a {
+				box-shadow: inset 0 0 0 10px $navigationColor;
+			}
+			.aui #wrapper .navigation-level1 a, .aui #wrapper .portlet-title .portlet-title-text, .aui #wrapper .navigation-level1 .navbar .nav>li>a:hover, .aui #wrapper .navigation-level1 .navbar .nav>li>a:active, .aui #wrapper .navigation-level1 .navbar .nav>li>a:focus, .aui body #macModal .modal-header h1, .aui #content a.dropdown-toggle.direction-down {
 				color: $navigationTextColor;
 			}
 

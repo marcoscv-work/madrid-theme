@@ -16,6 +16,69 @@ $solidMainColor: #C82425;
 		&.lateral-portlets-index-ready {
 			margin-top: $navigationLevelOneheight+$navigationLevelTwoheight;
 		}
+
+		&.macModal {
+			overflow: hidden;
+		}
+
+		#macModal {
+			border-radius: 0;
+			height: 100%;
+			display: block !important;
+			left: inherit !important;
+			overflow: auto;
+			left: 20% !important;
+			top: 100% !important;
+			width: 60%;
+			margin-left: 0;
+
+			&.animOn {
+				top: 0 !important;
+
+				@include transition(all 0.2s ease);
+				@include translate3d(0, 0, 0, 0);
+			}
+
+			.row-fluid {
+				margin: 25px 0;
+			}
+
+			.modal-header {
+				background: $solidMainColor;
+				border-bottom: 1px solid #666;
+				color: #FFF;
+				padding: 10px 25px;
+
+				h1 {
+					color: #FFF;
+				}
+
+				.close {
+					color: #FFF;
+					font-size: 45px;
+					line-height: 40px;
+					opacity: 1;
+					width: 30px;
+				}
+			}
+
+			.modal-body {
+				padding: 25px;
+				max-height: inherit;
+
+				img.full {
+					width: 100%;
+				}
+
+				h1 {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.btn-danger {
+		background: $solidMainColor;
 	}
 
 	.loading {
@@ -152,6 +215,10 @@ $solidMainColor: #C82425;
 				}
 			}
 
+			.navbar .nav>li.selected>a {
+				font-weight: bold;
+			}
+
 			.logo img {
 				max-height: 50px;
 				width: inherit;
@@ -252,6 +319,11 @@ $solidMainColor: #C82425;
 		body {
 			padding-left: 0;
 			padding-right: 0;
+
+			#macModal {
+				width: 100% !important;
+				left: 0 !important;
+			}
 		}
 
 		.hamburger-icon {
