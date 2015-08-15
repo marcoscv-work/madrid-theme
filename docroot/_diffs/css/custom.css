@@ -326,6 +326,10 @@ $solidMainColor: #C82425;
 			}
 		}
 
+		#navigation {
+			display: block;
+		}
+
 		.hamburger-icon {
 			padding: 12px 20px;
 			margin: 0;
