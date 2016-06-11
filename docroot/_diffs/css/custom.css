@@ -150,6 +150,11 @@ $solidMainColor: #C82425;
 		width: 100%;
 		background: #FFF;
 		z-index: 301;
+
+		.navbar-default {
+			background: none;
+			border: none;
+		}
 	}
 
 	#wrapper {
@@ -192,7 +197,7 @@ $solidMainColor: #C82425;
 
 		.navigation-level1 {
 			max-height: $navigationLevelOneheight;
-			padding: 10px 0 0;
+			margin: 10px 0 0;
 			height: 60px;
 			z-index: 1;
 
@@ -246,6 +251,7 @@ $solidMainColor: #C82425;
 
 			.portletsIndex ul li {
 				text-align: center;
+				margin: 0;
 
 				&.aactive, &:hover {
 					background: darken($solidMainColor, 5%);
@@ -261,6 +267,7 @@ $solidMainColor: #C82425;
 					overflow: hidden;
 					vertical-align: top;
 					white-space: nowrap;
+					padding: 9px;
 				}
 			}
 		}
@@ -315,6 +322,10 @@ $solidMainColor: #C82425;
 		}
 	}
 
+	img {
+		max-width: 100%;
+	}
+
 	@include respond-to(phone, tablet) {
 		body {
 			padding-left: 0;
@@ -331,13 +342,12 @@ $solidMainColor: #C82425;
 		}
 
 		.hamburger-icon {
-			padding: 12px 20px;
 			margin: 0;
-		}
-
-		.opened .hamburger-icon {
+			padding: 12px 20px;
 			position: fixed;
 			right: 0;
+			top: 10px;
+    		font-size: 24px;
 		}
 
 		.nav.hamburger-menu {
@@ -349,6 +359,7 @@ $solidMainColor: #C82425;
 			left: inherit;
 			overflow: auto;
 			position: fixed;
+			margin: 0;
 			right: 100%;
 			top: 0;
 			width: 100%;
@@ -397,6 +408,12 @@ $solidMainColor: #C82425;
 			a {
 				color: #FFF;
 			}
+		}
+	}
+
+	@include respond-to(phone) {
+		#wrapper .navigation-level2 .container {
+			margin: 0;
 		}
 	}
 }
