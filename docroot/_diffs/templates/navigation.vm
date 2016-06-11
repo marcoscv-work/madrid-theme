@@ -11,10 +11,11 @@
 						<img alt="Madrid theme" height="50" src="$images_folder/madrid-theme-logo.png" width="243" />
 					#end
 				</a>
+				<div class="hidden-md hidden-lg nav-right lead hamburger-icon">
+					<i class="icon-align-justify"></i>
+				</div>
 			</ul>
-			<div class="hidden-desktop pull-right lead hamburger-icon">
-				<i class="icon-align-justify"></i>
-			</div>
+
 			<ul aria-label="#language ("site-pages")" class="nav pull-right hamburger-menu" role="menubar">
 				#foreach ($nav_item in $nav_items)
 						#set ($nav_item_attr_selected="")
