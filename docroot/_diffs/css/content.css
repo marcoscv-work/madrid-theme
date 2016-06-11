@@ -83,7 +83,7 @@
 				padding: 10px 10% 20px;
 				position: absolute;
 				text-align: center;
-				width: 80%;
+				width: 100%;
 
 				h1, h2, p, a {
 					@include transition(all 0.2s ease);
