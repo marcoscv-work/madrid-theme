@@ -29,8 +29,14 @@ $dockbarMaCWidth: 60px;
 
 .aui {
 	.dockbar-bubbles {
+		#_145_dockbarResponsiveButton {
+			display: none;
+		}
+
 		.portlet-dockbar {
 			.navbar.dockbar {
+				background: transparent;
+				border: none;
 				height: inherit;
 				padding: 0;
 				position: fixed;
@@ -46,44 +52,48 @@ $dockbarMaCWidth: 60px;
 
 				@include transition(all 0.3s ease-in-out);
 
-				.container .nav-collapse {
+				.container {
 					padding: 0;
 
-					&>ul {
-						margin: 0;
+					.nav-collapse {
 						padding: 0;
 
-						&>li {
-							display: block;
-							float: none;
-							min-width: inherit;
+						&>ul {
+							margin: 0;
+							padding: 0;
 
-							&>a {
-								@extend %navbar-item-style;
-							}
+							&>li {
+								display: block;
+								float: none;
+								min-width: inherit;
 
-							&.open>a {
-								background-color: darken($backgroundSolidColor, 20%);
-							}
+								&>a {
+									@extend %navbar-item-style;
+								}
 
-							.nav-item-icon {
-								display: inline-block;
-							}
+								&.open>a {
+									background-color: darken($backgroundSolidColor, 20%);
+								}
 
-							.icon-caret-down, .nav-item-label {
-								display: none;
-							}
+								.nav-item-icon {
+									display: inline-block;
+								}
 
-							&>.dropdown-menu {
-								background: #FFF;
-								border: 1px solid #CCC;
-								left: $dockbarMaCWidth;
-								margin: 0;
-								position: absolute;
-								top: 0;
-
-								&:before, &:after {
+								.icon-caret-down, .nav-item-label {
 									display: none;
+								}
+
+								&>.dropdown-menu {
+									background: #FFF;
+									border: 1px solid #CCC;
+									left: $dockbarMaCWidth;
+									margin: 0;
+									position: absolute;
+									top: 0;
+
+									&:before, &:after {
+										display: none;
+									}
 								}
 							}
 						}
