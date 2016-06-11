@@ -9,7 +9,7 @@ $solidMainColor: #C82425;
 .aui {
 	body {
 		@include transition(all 0.4s ease);
-		@include transition(translate3d(0,0,0));
+		@include transition(translate3d(0, 0, 0));
 
 		margin-top: $navigationLevelOneheight;
 
@@ -290,8 +290,8 @@ $solidMainColor: #C82425;
 		padding-top: 20px;
 
 		.breadcrumb {
-			padding: 0;
 			background: inherit;
+			padding: 0;
 		}
 	}
 
@@ -354,12 +354,12 @@ $solidMainColor: #C82425;
 			width: 100%;
 			z-index: 302;
 
-			&>li {
+			& > li {
 				display: block;
 				width: 100%;
 				text-align: right;
 
-				&>a {
+				& > a {
 					color: #FFF;
 					font-size: 130%;
 
