@@ -1,7 +1,7 @@
 <div class="navigation-level1">
 	<div class="container navbar navbar-default">
 		<nav class="$nav_css_class container" id="navigation" role="navigation">
-			<ul class="nav">
+			<div class="nav">
 				<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
 					#set ($display-site-logo = $theme.getSetting("display-site-logo"))
 
@@ -11,7 +11,7 @@
 						<img alt="Madrid theme" height="50" src="$images_folder/madrid-theme-logo.png" width="243" />
 					#end
 				</a>
-			</ul>
+			</div>
 			<div class="hidden-desktop pull-right lead hamburger-icon">
 				<i class="icon-align-justify"></i>
 			</div>
